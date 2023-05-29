@@ -9,6 +9,8 @@
     font-size: 18px;
     font-family: sans-serif;
     color: #000000;
+    
+
   }
   
   a:link,
@@ -34,13 +36,15 @@
   }
 
   .logo {
-    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     justify-content: center;
-    z-index: 1;
-    
+    /*z-index: 1;*/
+    height: 600 px;
+    width: 100 px;
+    background: url("images/evian_origins_logo.svg");
+    background-repeat: no-repeat;
+    background-position: auto;
   
   }
   
