@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Секретные посылки для друзей</title>
+    <link rel="stylesheet" href="styles_8.css" />
+    <meta name="viewp ort" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <ul class="header-menu">
+        <li><a href="#">посылки</a></li>
+        <li><a href="#">упаковка</a></li>
+        <li><a href="#">подписка</a></li>
+      </ul>
+      <div class="header-logo">
+        <img src="images/logo_gd.png" />
+      </div>
+    </header>
+    <div class="background">
+        <img src="images/background.svg" />
+    </div>
+    <aside class="block">
+      <div class="form-container">
+        <form>
+          <label for="name">Имя:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="city">Город:</label>
+          <input type="text" id="city" name="city" required />
+
+          <label for="gift">Подарок:</label>
+          <select id="gift" name="gift" required>
+            <option value="Nothing"></option>
+            <option value="Твердый переплет">Книга в твердом переплете</option>
+            <option value="Мягкий переплет">Книга в мягком переплете</option>
+            <option value="Журнал">Журнал</option>
+            <option value="Открытка">Открытка</option>
+          </select>
+
+          <label for="email">Электронная почта:</label>
+          <input type="email" id="email" name="email" required />
+          <input type="submit" value="Отправить" class="submit-button" />
+        </form>
+        
+      </div>
+      
+    </aside>
+    
+    <div class="message">
+      <h1>Ваша посылка уже в пути!</h1>
+    </div>
+    
+    <footer>
+      <p>Секретные посылки для друзей</p>
+      <p>© 2023</p>
+    </footer>
+  </body>
+</html>
