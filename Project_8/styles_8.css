@@ -90,7 +90,7 @@ footer p {
     align-items: center;
 }
 
-.form-container {
+.main-container {
     background-color: pink;
     border: 1px solid white;
     border-radius: 10px;
@@ -99,21 +99,23 @@ footer p {
     margin-bottom: 20px;
   }
 
-  .form-container input[type="text"],
-  .form-container select {
+  .main-container input[type="text"],
+  .main-container select {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    outline: none;
+    /*margin-bottom: 10px;*/
     border: none;
     border-radius: 5px;
     background-color: white;
     color: black;
   }
 
-  .form-container input[type="email"] {
+  .main-container input[type="email"] {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    outline: none;
+    /*margin-bottom: 10px;*/
     border: none;
     border-radius: 5px;
     background-color: white;
